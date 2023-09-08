@@ -9,7 +9,7 @@ function App() {
       <p>WELCOME TO</p>
       <h1><span className="small-header-text">The</span> ASL <br/>
       Dictionary
-      <br/><span className="small-header-text">by</span>
+      <br/><span className="small-header-text">by </span>
       Alisha U.</h1>
       <SearchBar />
       <Dictionary />
