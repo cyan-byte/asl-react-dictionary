@@ -6,7 +6,11 @@ import SearchBar from "./components/SearchBar";
 function App() {
   return (
     <div>
-      <h1>ASL React Dictionary</h1>
+      <p>WELCOME TO</p>
+      <h1><span className="small-header-text">The</span> ASL <br/>
+      Dictionary
+      <br/><span className="small-header-text">by</span>
+      Alisha U.</h1>
       <SearchBar />
       <Dictionary />
     </div>
