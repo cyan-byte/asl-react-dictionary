@@ -41,16 +41,22 @@ function Dictionary() {
 
   return (
     <div className="dictionary">
-      <input
-        type="text"
-        placeholder="Type in a word"
-        value={searchTerm}
-        onChange={handleSearchChange}
-        // style={{ textIndent: "-9999px" }}
-      />
+      <div className="top-search">
+        <div className="left-top-box"></div>
+        <div className="right-top-box">
+          <p className="search-bar">Type in a word</p>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={handleSearchChange}
+            // style={{ textIndent: "-9999px" }}
+          />
+          <button>search</button>
+        </div>
+      </div>
       <div className="GifContainer">
         {gifs.length === 0 ? (
-          <p>No results found.</p>
+          <img src="./no-results-purple.png" />
         ) : (
           gifs.map((gifUrl, index) => (
             <img
@@ -62,6 +68,7 @@ function Dictionary() {
           ))
         )}
       </div>
+      <footer>copyright 2023. Designed By Alisha Upton</footer>
     </div>
   );
 }

@@ -1,18 +1,17 @@
 import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import Dictionary from "./components/Dictionary";
-import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
-    <div>
-      <p>WELCOME TO</p>
-      <h1><span className="small-header-text">The</span> ASL <br/>
-      Dictionary
-      <br/><span className="small-header-text">using </span>
-      GIPHY</h1>
-      <SearchBar />
-      <Dictionary />
+    <div className="app">
+      <header>
+        <h1>ASL DICTIONARY</h1>
+        <img src="./open_book.png" className="open-book" />
+      </header>
+      <div className="search-and-dictionary">
+        <Dictionary />
+      </div>
     </div>
   );
 }
