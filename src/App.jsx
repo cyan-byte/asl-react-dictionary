@@ -12,6 +12,7 @@ function App() {
       <div className="search-and-dictionary">
         <Dictionary />
       </div>
+      <footer>copyright 2023. Designed By Alisha Upton</footer>
     </div>
   );
 }
