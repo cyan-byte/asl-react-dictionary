@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 62.5%;
   background-color: #52b7fb;
-  background-image: url("assets/pexels-kristina-paukshtite-1998922.jpg");
+  background-image: url("./assets/pexels-kristina-paukshtite-1998922.jpg");
   color: #07000d;
   font-family: "Inter", sans-serif;
 }
@@ -15,7 +15,7 @@
 header {
   display: flex;
   position: fixed;
-  background-image: url("assets/pexels-kristina-paukshtite-1998922.jpg");
+  background-image: url("./assets/pexels-kristina-paukshtite-1998922.jpg");
   width: 100%;
 }
 
