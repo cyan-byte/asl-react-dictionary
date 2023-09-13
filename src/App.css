@@ -82,6 +82,7 @@ h1 {
 
 .gif {
   border-radius: 16px;
+  border: solid #07000d 1px;
 }
 
 input {
