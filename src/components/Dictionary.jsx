@@ -54,7 +54,7 @@ function Dictionary() {
           <button>search</button>
         </div>
       </div>
-      <div className="GifContainer">
+      <div className="gif-container">
         {gifs.length === 0 ? (
           <img src="./no-results-purple.png" />
         ) : (

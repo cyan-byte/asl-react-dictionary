@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 62.5%;
   background-color: #52b7fb;
-  background-image: url("assets/pexels-kristina-paukshtite-1998922.jpg");
+  background-image: url("pexels-kristina-paukshtite-1998922.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #07000d;
@@ -19,8 +19,10 @@ header {
   display: flex;
   justify-content: center;
   position: fixed;
-  /* background-image: url("./assets/pexels-kristina-paukshtite-1998922.jpg"); */
+  background-image: url("pexels-kristina-paukshtite-1998922.jpg");
   width: 100%;
+  border-bottom: solid #07000d 1px;
+  margin-top: -10px;
 }
 
 h1 {
@@ -71,8 +73,14 @@ h1 {
   width: 1120px;
 }
 
-.gif {
+.gif-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.gif {
   border-radius: 16px;
 }
 
@@ -113,7 +121,7 @@ button {
 
 .search-and-dictionary {
   display: flex;
-  margin-top: 160px;
+  margin-top: 140px;
 }
 
 footer {
