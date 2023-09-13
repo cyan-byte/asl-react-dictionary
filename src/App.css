@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 62.5%;
   background-color: #52b7fb;
-  background-image: url("pexels-kristina-paukshtite-1998922.jpg");
+  background-image: url("assets/pexels-kristina-paukshtite-1998922.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #07000d;
@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: center;
   position: fixed;
-  background-image: url("pexels-kristina-paukshtite-1998922.jpg");
+  background-image: url("assets/pexels-kristina-paukshtite-1998922.jpg");
   width: 100%;
   border-bottom: solid #07000d 1px;
   margin-top: -10px;
