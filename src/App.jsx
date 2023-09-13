@@ -9,11 +9,17 @@ function App() {
         <h1>ASL DICTIONARY</h1>
         <img src="./open_book.png" className="open-book" />
       </header>
+
       <div className="search-and-dictionary">
-        <Dictionary />
+        <div className="main">
+          <img src="./giphy-api-line-dot.png" style={{ width: "40px", height: "639px" }}/>
+          <Dictionary />
+          <img src="./asl-words-line-dot.png" />
+        </div>
       </div>
-      <footer><p>copyright 2023. Designed By Alisha Upton</p>
-      <img src="./Poweredby_100px-White_VertText.png"/>
+      <footer>
+        <p>copyright 2023. Designed By Alisha Upton</p>
+        <img src="./Poweredby_100px-White_VertText.png" />
       </footer>
     </div>
   );

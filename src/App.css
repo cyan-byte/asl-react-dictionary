@@ -125,6 +125,12 @@ button {
   margin-top: 140px;
 }
 
+.main {
+  display: flex;
+  gap: 88px;
+  margin-top: 5px;
+}
+
 footer {
   display: flex;
   gap: 20px;
