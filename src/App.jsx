@@ -4,7 +4,9 @@ import Dictionary from "./components/Dictionary";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" style={{ 
+      backgroundImage: `url("https://images.pexels.com/photos/1998922/pexels-photo-1998922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` 
+    }}>
       <header>
         <h1>ASL DICTIONARY</h1>
         <img src="./open_book.png" className="open-book" />
