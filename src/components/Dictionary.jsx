@@ -12,7 +12,8 @@ function Dictionary() {
     const fetchGifs = async () => {
       try {
         if (searchTerm) {
-          // Concatenate the username and searchTerm in the API request URL. I needed to add the @ sign as a string and concatenate it with the username variable
+          // Concatenate the username and searchTerm in the API request URL. 
+          // I needed to add the @ sign as a string and concatenate it with the username variable
           const response = await axios.get(
             `https://api.giphy.com/v1/gifs/search?q=${
               `@` + username

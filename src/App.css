@@ -35,9 +35,7 @@ h1 {
 }
 
 .open-book {
-  width: 168px;
-  height: 145px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .top-search {
@@ -88,14 +86,11 @@ h1 {
 input {
   display: flex;
   border: none;
-  border-left: solid #07000d 1px;
-  border-top: solid #07000d 1px;
-  border-bottom: solid #07000d 1px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border: solid #07000d 1px;
+  border-radius: 10px;
   padding-left: 16px;
-  width: 688px;
-  height: 56px;
+  width: 470px;
+  height: 48px;
   background: linear-gradient(
     90deg,
     #eee 0.2%,
@@ -109,7 +104,7 @@ input {
 button {
   background-color: #34fc78;
   width: 230px;
-  height: 56px;
+  height: 48px;
   border: solid #07000d 1px;
   border-radius: 10px;
   font-size: 2.4rem;
@@ -138,3 +133,5 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Media Queries */
