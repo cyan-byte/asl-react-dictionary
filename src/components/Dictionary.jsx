@@ -52,7 +52,6 @@ function Dictionary() {
             onChange={handleSearchChange}
             // style={{ textIndent: "-9999px" }}
           />
-          <button>search</button>
         </div>
       </div>
       <div className="gif-container">
